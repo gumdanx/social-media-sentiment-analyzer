@@ -7,7 +7,8 @@
                  [clj-http "3.12.2"]
                  [cheshire "5.10.1"]
                  [org.clojure/math.numeric-tower "0.0.4"]
-                 [incanter "1.9.3"]]
+                 [incanter "1.9.3"]
+                 [environ "1.2.0"]]
   :main ^:skip-aot social-media-sentiment-analyzer.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
